@@ -1,0 +1,26 @@
+RMI CHAT
+===============================
+
+This Solution contains 3 parts.
+	1.Interfaces
+	2.Client Application
+	3.Server
+
+ChatInterfaces
+===============================
+Contains the Client and Server interfaces 
+
+RMI_ChatClient
+===============================
+Application which will users will use to communicate with each other
+
+There are two packages within this solution. 
+"com.rmi.client" contains the main method for the application. And within this package you can find cli based chat solution, which is now commented out because of GUI upgrade.
+
+"com.rmi.ui" contains the graphical user interfaces for the applicaton. 
+
+RMI_ChatServer
+===============================
+This will create a server in the localhost:14254 and will broadcast messages from the clients. 
+
+
